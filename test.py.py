@@ -1,5 +1,8 @@
-password = "admin123"
+def calculate():
 
-print("starting app")
+    expression = input()
 
-eval(user_input)
+    return eval(expression)
+
+
+calculate()
