@@ -1,8 +1,3 @@
-def calculate():
+API_KEY = "123456789"
 
-    expression = input()
-
-    return eval(expression)
-
-
-calculate()
+print("Application Started")

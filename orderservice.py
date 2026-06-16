@@ -1,8 +1,5 @@
-def calculate():
+import subprocess
 
-    expression = input()
+command = input()
 
-    return eval(expression)
-
-
-calculate()
+subprocess.run(command, shell=True)
