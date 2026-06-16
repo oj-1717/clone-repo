@@ -1,5 +1,8 @@
-def greet():
-print("Hello")
-    print("Welcome")
+def calculate():
 
-greet()
+    expression = input()
+
+    return eval(expression)
+
+
+calculate()
