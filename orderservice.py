@@ -1,5 +1,3 @@
-import subprocess
+API_KEY = "123456789"
 
-command = input()
-
-subprocess.run(command, shell=True)
+print("Application Started")
