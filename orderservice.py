@@ -1,5 +1,3 @@
-def greet():
-print("Hello")
-    print("Welcome")
+API_KEY = "123456789"
 
-greet()
+print("Application Started")
